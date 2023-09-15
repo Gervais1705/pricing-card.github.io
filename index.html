@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Pricing Page</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+   <center> <h2> Choose the plan that is right for your Company</h2>
+    <h2>Plan & Pricing </h2></center>
+  <div class="pricing-container">
+    <div class="pricing-card">
+      <h2>Basic Plan</h2>
+      <div class="price">
+        <span class="monthly">$19/month</span>
+        <span class="annual">$199/year</span>
+      </div>
+      <ul class="features">
+        <li>5GB Storage</li>
+        <li>10 Users</li>
+        <li>Email Support</li>
+      </ul>
+    </div>
+    <div class="pricing-card">
+        <h2>Silver Plan</h2>
+        <div class="price">
+            <span class="monthly">29/month</span>
+            <span class="annual">$299/year</span>
+          </div>
+          <ul class="features">
+            <li>10GB Storage</li>
+            <li>20 Users</li>
+            <li>Email Support/24h/live</li>
+          </ul>
+    
+    </div>
+    <div class="pricing-card">
+        <h2>Gold Plan</h2>
+        <div class="price">
+            <span class="monthly">39/month</span>
+            <span class="annual">$399/year</span>
+          </div>
+          <ul class="features">
+            <li>100GB Storage</li>
+            <li>50 Users</li>
+            <li>full access</li>
+          </ul>
+    </div>
+  </div>
+  <button class="toggle-button">Toggle Pricing</button>
+  
+        
+  <section class="form">
+    <center><h2>Contact Us</h2>
+    <p> Please fill out this form and tell us what plan are you interested about:</p></center>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="error" class="hidden">Please fill in all fields correctly.</div>
+  </section>
+  
+    
+        <footer>
+            <p>@ Copyright Gervais17  | All Rights Reserved</p>
+        </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
